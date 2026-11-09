@@ -54,7 +54,7 @@ tabs.forEach(tab => tab.addEventListener('click', () => {
 }));
 
 // ---------- гайд подключения ----------
-const BOT = 'liqulditymrkt_bot';
+const BOT = 'mrktcheckapp';
 const steps = [
   {
     title: 'Telegram для бизнеса',
@@ -277,4 +277,5 @@ function renderPanel(data) {
 
 loadPanel();
 })();
+
 
